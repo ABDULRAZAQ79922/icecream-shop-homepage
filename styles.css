@@ -1,0 +1,114 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff8e1;
+    color: #5d4037;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc80;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    color: #e65100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e65100;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+section h2{
+    font-size: 2rem;
+}
+
+.flavor-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flavor-card {
+    background-color: #fff3e0;
+    border: 2px solid #ffab91;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.flavor-card:hover {
+    background-color: #fff3e0;
+    border: 2px solid #ee21c9;
+    transform: translatey(-10px);
+    transition: all 10ms ease-in-out;
+}
+.flavor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flavor-card h3 {
+    margin: 10px 0 0;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #ffab91;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff7043;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e64a19;
+}
+
+footer {
+    background-color: #ffcc80;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
